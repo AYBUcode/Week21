@@ -1,9 +1,10 @@
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
-        System.out.println("TURKIYE");
-        for (int i = 0; i < 5; i++) {
-            System.out.println("Ankara");
-        }
+        int x = 5;
+        System.out.println(x++);// 5
+        System.out.println(++x);// 7
+        System.out.println(x++);// 7
+        System.out.println(x++);// 8
+        System.out.println(++x);// 10
     }
 }
